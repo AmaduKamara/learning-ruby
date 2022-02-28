@@ -1,17 +1,17 @@
 def add(a, b)
-  a + b
+  puts "The result of adding #{a} and #{b} = #{a + b}"
 end
 
 def subtract(a, b)
-  a - b
+  puts "The result of subtracting #{a} and #{b} = #{a - b}"
 end
 
 def multiply(a, b)
-  a * b
+  puts "The result of multiplying #{a} and #{b} = #{a * b}"
 end
 
 def divide(a, b)
-  a / b
+  puts "The result of dividing #{a} and #{b} = #{a / b}"
 end
 
 def calculator(a, b, operation = "add")
@@ -33,7 +33,7 @@ result_2 = calculator(3, 4, "multiply")
 result_3 = calculator(10, 2, "divide")
 result_4 = calculator(10, 2, "subtract")
 
-p result_1
-p result_2
-p result_3
-p result_4
+result_1
+result_2
+result_3
+result_4
