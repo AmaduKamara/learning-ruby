@@ -1,6 +1,7 @@
 
 def praise_person(name, age)
   puts "#{name}, #{age} is a talented web developer"
+  puts "#{name}, his age is #{age}, and in 5 years will be #{age + 5}"
 end
 
 praise_person("Samuel Amkam", 26)
