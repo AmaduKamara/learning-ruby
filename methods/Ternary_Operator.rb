@@ -1,0 +1,1 @@
+puts 4 > 10 ? "Yes it is" : "No it's not"
