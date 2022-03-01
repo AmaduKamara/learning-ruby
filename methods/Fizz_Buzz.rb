@@ -3,7 +3,8 @@ def fizzbuzz(number)
 # If number is divisible by 5, output Buzz
 # If number is divisible by 3 and 5 output FizzBuzz
   i = 1
-  until i > number
+  # until i > number
+  while i <= number
     if i % 3 == 0 && i % 5 == 0
       puts "FizzBuzz for #{i}"
     elsif i % 3 == 0
